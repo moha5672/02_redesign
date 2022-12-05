@@ -87,6 +87,9 @@ body {
 .wrapper {
   width: clamp(21.875rem, 7.4636rem + 61.4887vw, 81.25rem);
   margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 /* Nav styling */
@@ -104,7 +107,6 @@ nav {
   gap: clamp(3rem, 2.5146rem + 2.0712vw, 5rem);
   list-style: none;
   font-size: 1.3rem;
-  padding-left: 0;
 }
 
 .nav-links li a {
@@ -115,5 +117,13 @@ nav {
 
 footer {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 8vh;
   flex-direction: row;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
 }
