@@ -84,46 +84,44 @@ body {
   background-color: var(--baggrund-farve);
 }
 
+main {
+  height: calc(100vh - 111.2px - 128px);
+}
+
+a {
+  color: var(--link-farve);
+  text-decoration: none;
+  font-family: "overskrift";
+}
+
+li {
+  list-style-type: none;
+}
+
 .wrapper {
   width: clamp(21.875rem, 7.4636rem + 61.4887vw, 81.25rem);
   margin-inline: auto;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
 }
 
-/* Nav styling */
-
-nav {
+nav,
+footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 85%;
+  margin-inline: auto;
   align-items: center;
-  min-height: 8vh;
+  text-align: center;
+  padding: 2.5rem 0rem;
 }
 
 .nav-links {
   display: flex;
-  justify-content: space-around;
-  gap: clamp(3rem, 2.5146rem + 2.0712vw, 5rem);
-  list-style: none;
+}
+
+.nav-links > li {
+  margin-left: 5rem;
+  list-style-type: none;
   font-size: 1.3rem;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  color: var(--link-farve);
-  text-transform: uppercase;
-}
-
-footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  min-height: 8vh;
-  flex-direction: row;
-}
-
-footer ul {
-  list-style: none;
-  text-align: center;
 }
