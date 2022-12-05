@@ -8,6 +8,21 @@
   --knap-farve-hover: #ffa36e;
 }
 
+@font-face {
+  font-family: "overskrift";
+  src: url(/fonts/dmserifdisplay-regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: "links";
+  src: url(/fonts/inter-variablefont_slntwght-webfont.woff2);
+}
+
+@font-face {
+  font-family: "broedtekst";
+  src: url(/fonts/librebaskerville-regular-webfont.woff2);
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -62,6 +77,7 @@ select {
   8. Avoid text overflows
 */
 p,
+li,
 h1,
 h2,
 h3,
@@ -69,6 +85,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  letter-spacing: 0.7px;
 }
 /*
   9. Create a root stacking context
@@ -91,7 +108,12 @@ main {
 a {
   color: var(--link-farve);
   text-decoration: none;
-  font-family: "overskrift";
+  font-family: "links";
+}
+
+p,
+li {
+  font-family: "broedtekst";
 }
 
 li {
