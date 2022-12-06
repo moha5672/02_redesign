@@ -6,6 +6,11 @@
   --tekst-farve: #4d453e;
   --knap-farve: #ff7424;
   --knap-farve-hover: #ffa36e;
+
+  --lille-skrift: 0.8rem;
+  --normal-skrift: 1rem;
+  --mellem-skrift: 1.5rem;
+  --stor-skrift: 2rem;
 }
 
 @font-face {
@@ -102,7 +107,7 @@ body {
 }
 
 main {
-  height: calc(100vh - 111.2px - 128px);
+  height: calc(100vh - 73.75px - 120px);
 }
 
 a {
@@ -123,27 +128,48 @@ li {
 .wrapper {
   width: clamp(21.875rem, 7.4636rem + 61.4887vw, 81.25rem);
   margin-inline: auto;
-  display: flex;
-  flex-direction: column;
 }
 
-nav,
 footer {
+  background-color: var(--footer-farve);
   display: flex;
-  justify-content: space-between;
-  width: 85%;
-  margin-inline: auto;
-  align-items: center;
-  text-align: center;
-  padding: 2.5rem 0rem;
+  justify-content: space-evenly;
 }
 
-.nav-links {
+footer > * {
   display: flex;
 }
 
-.nav-links > li {
-  margin-left: 5rem;
-  list-style-type: none;
-  font-size: 1.3rem;
+@media screen and (min-width: 810px) {
+  nav,
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    align-items: flex-start;
+    padding: 1.5rem 0rem;
+    font-size: var(--normal-skrift);
+  }
+
+  nav {
+    width: 85%;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-links > li {
+    margin-left: 5rem;
+    list-style-type: none;
+  }
+
+  footer > * {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    gap: 2rem;
+    line-height: 1.5rem;
+    margin-inline: auto;
+  }
 }
