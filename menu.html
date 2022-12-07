@@ -1,24 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-     
     <link rel="stylesheet" href="styles/global-styles.css" />
     <link rel="stylesheet" href="styles/menu.css" />
     <title>Menu | Café Kaf</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#"><img class="logo" src="img/kaf-logo.svg" alt="" /></a>
+        </div>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#menu">Menu</a></li>
+          <li><a class="nav-link" href="#bestil_kage">Bestil kage</a></li>
+          <li><a class="nav-link" href="#om-os">Om os</a></li>
+          <li><a class="nav-link" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <div class="wrapper">
-        <div class="drikkevare"></div>
-        <div class="mad"></div>
+        <div class="menu">
+          <article class="drikkevare">
+            <div class="menu__intro">
+              <h1 class="menu__header">Drikkevarer</h1>
+              <div class="menu__intro-text">
+                <p>
+                  Er du til kaffe eller te?<br />
+                  Eller foretrækker du et koldt glas saft? <br />På Kaf kommer du ikke til at tørste, for vi har et hav af drikkemuligheder at vælge i mellem. Vores kaffebønner er økologiske og der serveres altid med dobbeltshot.
+                </p>
+              </div>
+            </div>
+            <div class="menu__card">
+              <div class="menu__item">
+                <p>Latte</p>
+                <p class="menu__price">45</p>
+              </div>
+              <div class="menu__item">
+                <p>Cappuchino</p>
+                <p class="menu__price">45</p>
+              </div>
+              <div class="menu__item">
+                <p>Flat white</p>
+                <p class="menu__price">42</p>
+              </div>
+              <div class="menu__item">
+                <p>Cortado</p>
+                <p class="menu__price">42</p>
+              </div>
+              <div class="menu__item">
+                <p>Americano</p>
+                <p class="menu__price">35</p>
+              </div>
+              <div class="menu__item">
+                <p>Espresso</p>
+                <p class="menu__price">35</p>
+              </div>
+              <div class="menu__item">
+                <p>Islatte / Isamericano</p>
+                <p class="menu__price">45</p>
+              </div>
+              <div class="menu__item">
+                <p>Te</p>
+                <p class="menu__price">45</p>
+              </div>
+              <div class="menu__item">
+                <p>Matcha latte</p>
+                <p class="menu__price">59</p>
+              </div>
+              <div class="menu__item">
+                <p>Kolde safter</p>
+                <p class="menu__price">45</p>
+              </div>
+              <div class="menu__item">
+                <p>Hjemmelavet chai</p>
+                <p class="menu__price">55</p>
+              </div>
+            </div>
+          </article>
+          <article class="mad">
+            <div class="menu__intro">
+              <h1 class="menu__header">Mad</h1>
+              <div class="menu__intro-text">
+                <p>Vi bager både om morgenen og i løbet af dagen, og der er derfor altid frisk bagværk klar til dig. <br />Vi tilbyder blandt andet croissanter med og uden fyld, friskbagt surdejsbrød samt spandauer, som kan nydes både i caféen eller to go.</p>
+              </div>
+            </div>
+            <div class="menu__card">
+              <h2 class="menu__subheader">Brunch</h2>
+              <div class="menu__item">
+                <div class="menu__food">
+                  <p class="menu__food__brunch__subheader">Komplet</p>
+                  <p class="menu__food__description">Surdejsbolle m. smør, ost, hjemmelavet nutella og syltetøj, pyntet avocado*, chia yoghurt med granola, bær, frisk frugt og saitan pølse</p>
+                </div>
+                <p class="menu__price">159</p>
+              </div>
+              <div class="menu__item">
+                <div class="menu__food">
+                  <p class="menu__food__brunch__subheader">Deluxe</p>
+                  <p class="menu__food__description">Surdejsbolle m. smør, ost, hjemmelavet nutella og syltetøj, pyntet avocado*, chia yoghurt med granola, bær, frisk frugt og croissant</p>
+                </div>
+                <p class="menu__price">169</p>
+              </div>
+              <hr class="menu__divider" />
+              <h2 class="menu__subheader">Sandwiches og varme retter</h2>
+              <div class="menu__item">
+                <div class="menu__food">
+                  <p class="menu__food__subheader">Grillet croissant</p>
+                  <p class="menu__food__description">Surdejsbolle m. smør, ost, hjemmelavet nutella og syltetøj, pyntet avocado*, chia yoghurt med granola, bær, frisk frugt og saitan pølse</p>
+                </div>
+                <p class="menu__price">89</p>
+              </div>
+              <div class="menu__item">
+                <div class="menu__food">
+                  <p class="menu__food__subheader">Grillet surdejsbrød</p>
+                  <p class="menu__food__description">mayonaise, spinat, ost, pølse, semi-dried tomater</p>
+                </div>
+                <p class="menu__price">89</p>
+              </div>
+              <div class="menu__item">
+                <div class="menu__food">
+                  <p class="menu__food__subheader">Surdejs sandwich</p>
+                  <p class="menu__food__description">mayonaise, spinat, avocado, sauerkraut, cherry tomater</p>
+                </div>
+                <p class="menu__price">89</p>
+              </div>
+              <div class="menu__item">
+                <div class="menu__food">
+                  <p class="menu__food__subheader">Surdejs sandwich</p>
+                  <p class="menu__food__description">mayonaise, spinat, kikærtesalat, cherry tomater</p>
+                </div>
+                <p class="menu__price">89</p>
+              </div>
+            </div>
+          </article>
+          <article class="surdejsboller">
+            <h1 class="menu__header">Surdejsboller</h1>
+            <div class="menu__card">
+              <div class="menu__item">
+                <p>med smør</p>
+                <p class="menu__price">35</p>
+              </div>
+              <div class="menu__item">
+                <p>med smør og ost</p>
+                <p class="menu__price">48</p>
+              </div>
+              <div class="menu__item">
+                <p>med smør og pyntet avocado*</p>
+                <p class="menu__price">59</p>
+              </div>
+              <div class="menu__item">
+                <p>med smør, pyntet avocado* og ost</p>
+                <p class="menu__price">69</p>
+              </div>
+            </div>
+          </article>
+          <article class="bagværk">
+            <h1 class="menu__header">Bagværk</h1>
+            <div class="menu__card">
+              <div class="menu__item">
+                <p>Cinnamon cruffin</p>
+                <p class="menu__price">32</p>
+              </div>
+              <div class="menu__item">
+                <p>Romkugle</p>
+                <p class="menu__price">25</p>
+              </div>
+              <div class="menu__item">
+                <p>Kardemommesnurre</p>
+                <p class="menu__price">35</p>
+              </div>
+              <div class="menu__item">
+                <p>Croissant</p>
+                <p class="menu__price">32</p>
+              </div>
+              <div class="menu__item">
+                <p>Pistachie shell croissant</p>
+                <p class="menu__price">32</p>
+              </div>
+              <div class="menu__item">
+                <p>Croissant m. ristede hasselnødder</p>
+                <p class="menu__price">32</p>
+              </div>
+            </div>
+          </article>
+          <h2 class="menu__plant__subheader">Alle vores produkter er 100% plantebaseret.</h2>
+        </div>
       </div>
     </main>
+    <footer>
+      <ul>
+        <li>Birkegade 21</li>
+        <li>2200 København</li>
+      </ul>
+      <ul>
+        <li>Åbningstider</li>
+        <li>Mandag - Søndag</li>
+        <li>9.00 - 17.30</li>
+      </ul>
+      <ul>
+        <li>info@cafekaf.com</li>
+        <li>(+45) 71 79 05 77</li>
+      </ul>
+      <ul>
+        <li><a href="https://www.instagram.com/cafe_kaf/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/kafcopenhagen/">Facebook</a></li>
+      </ul>
+    </footer>
     <script src="login.js"></script>
-    <footer></footer>
   </body>
 </html>

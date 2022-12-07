@@ -1,0 +1,48 @@
+.menu__item {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 2rem;
+}
+
+.menu__header {
+  text-transform: uppercase;
+}
+
+.menu__subheader {
+  margin-top: 2rem;
+}
+
+.menu__intro > * {
+  margin-block: 1.5rem;
+}
+
+.menu__card {
+  padding-inline: 2rem;
+}
+
+.menu__food__brunch__subheader {
+  font-weight: bold;
+}
+
+.menu__price {
+  margin-top: auto;
+}
+
+.menu__food {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.menu__food__description {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.menu__divider {
+  border-top: 3px solid var(--link-farve);
+}
+
+.menu__plant__subheader {
+  font-size: clamp(2rem, 1.2718rem + 3.1068vw, 5rem);
+}
