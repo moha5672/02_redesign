@@ -196,3 +196,16 @@ nav {
     transform-origin: left;
   }
 }
+
+button {
+  background-color: var(--knap-farve);
+  color: var(--baggrund-farve);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "links";
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--knap-farve-hover);
+}
