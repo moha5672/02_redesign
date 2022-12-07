@@ -110,6 +110,7 @@ h6 {
 
 body {
   background-color: var(--baggrund-farve);
+  color: var(--tekst-farve);
 }
 
 .wrapper {
@@ -140,7 +141,6 @@ h6 {
 p,
 li {
   font-family: "broedtekst";
-  color: var(--tekst-farve);
 }
 
 .wrapper {
@@ -152,18 +152,21 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   place-items: center;
-  text-align: center;
   gap: 1rem;
   background-color: var(--footer-farve);
   padding: 1.5rem;
   margin-top: auto;
 }
 
+.socials,
+.aabningstider {
+  margin-top: 1.5rem;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
   padding: 1.5rem;
-  /* margin-bottom: 1.5rem; */
   place-items: center;
 }
 
@@ -194,5 +197,11 @@ nav {
   .nav-link:hover::after {
     transform: scaleX(1);
     transform-origin: left;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  footer {
+    text-align: center;
   }
 }
