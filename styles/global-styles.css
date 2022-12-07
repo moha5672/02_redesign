@@ -157,6 +157,7 @@ footer {
   background-color: var(--footer-farve);
   padding: 1.5rem;
   margin-top: auto;
+  font-size: 0.8rem;
 }
 
 .socials,
