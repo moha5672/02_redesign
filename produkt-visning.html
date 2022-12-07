@@ -39,35 +39,58 @@
             <p class="kage_pris"><strong>725,-</strong></p>
           </div>
         </div>
+        <hr class="divider" />
         <div class="form">
-          <div class="form-felt">
-            <label for="dato">Dato for afhentning:</label>
-            <input type="date" id="dato" name="dato" required />
+          <div>
+            <div class="form-felt">
+              <label for="dato">Afhentningsdato:</label>
+              <input type="date" id="dato" name="dato" required />
+            </div>
+            <div class="form-felt">
+              <label for="time">kl.</label>
+              <input type="time" id="time" name="time" required />
+            </div>
+            <div class="form-felt">
+              <label for="antal">Antal:</label>
+              <select id="antal" name="antal" required>
+                <option value="1">1 kage</option>
+                <option value="2">2 kager</option>
+                <option value="3">3 kager</option>
+                <option value="4">4 kager</option>
+              </select>
+            </div>
+            <div class="form-felt">
+              <label
+                >Evt. besked/kommentar:
+                <textarea name="besked" rows="1"></textarea>
+              </label>
+            </div>
           </div>
-          <div class="form-felt">
-            <label for="time">Tidspunkt for afhentning:</label>
-            <input type="time" id="time" name="time" required />
+          <div class="knap">
+            <button type="submit">Læg i kurv</button>
           </div>
-          <div class="form-felt">
-            <label for="antal">Antal:</label>
-            <select id="antal" name="antal" required>
-              <option value="1">1 kage</option>
-              <option value="2">2 kager</option>
-              <option value="3">3 kager</option>
-              <option value="4">4 kager</option>
-            </select>
-          </div>
-          <div class="form-felt">
-            <label
-              >Evt. besked eller kommentar ifm. bestilling:
-              <textarea name="besked" rows="5"></textarea>
-            </label>
-          </div>
-          <button type="submit">Læg i kurv</button>
         </div>
       </div>
     </main>
-
+    <footer>
+      <ul>
+        <li>Birkegade 21</li>
+        <li>2200 København</li>
+      </ul>
+      <ul>
+        <li>Åbningstider</li>
+        <li>Mandag - Søndag</li>
+        <li>9.00 - 17.30</li>
+      </ul>
+      <ul>
+        <li>info@cafekaf.com</li>
+        <li>(+45) 71 79 05 77</li>
+      </ul>
+      <ul>
+        <li><a href="https://www.instagram.com/cafe_kaf/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/kafcopenhagen/">Facebook</a></li>
+      </ul>
+    </footer>
     <script src="login.js"></script>
   </body>
 </html>
