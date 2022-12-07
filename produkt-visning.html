@@ -26,34 +26,45 @@
     </header>
     <main>
       <div class="wrapper">
-        <div class="billede">
-          <img src="img/tegninger_fra_site/skildpadde.png" alt="skildpaddecheesecake" />
-        </div>
-        <div class="tekst">
-          <h2>SKILDPADDE CHEESECAKE</h2>
-          <p>Glutenfri cheesecake på browniebund m. valnødder, chokolade & karamel på toppen</p>
-          <p>Hel kage (den store) til omkring 14-16 personer</p>
+        <div class="container">
+          <div class="billede">
+            <img src="img/tegninger_fra_site/skildpadde.png" alt="skildpaddecheesecake" />
+          </div>
+          <div class="tekst">
+            <h1 class="produktvisning_header">Skildpadde Cheesecake</h1>
+            <p>Glutenfri cheesecake på browniebund m. valnødder, chokolade & karamel på toppen</p>
+            <p>Hel kage (den store) til omkring 14-16 personer</p>
 
-          <p><em>Allergener: Soja & nødder (mandel, cashew, hassel, valnød)</em></p>
-          <p><strong>725,-</strong></p>
+            <p><em>Allergener: Soja & nødder (mandel, cashew, hassel, valnød)</em></p>
+            <p><strong>725,-</strong></p>
+          </div>
         </div>
-      </div>
-      <div class="form">
-        <div class="form-felt">
-          <label for="dato">Dato:</label>
-          <input type="date" id="dato" name="dato" required />
+        <div class="form">
+          <div class="form-felt">
+            <label for="dato">Dato for afhentning:</label>
+            <input type="date" id="dato" name="dato" required />
+          </div>
+          <div class="form-felt">
+            <label for="time">Tidspunkt for afhentning:</label>
+            <input type="time" id="time" name="time" required />
+          </div>
+          <div class="form-felt">
+            <label for="antal">Antal (max bestilling online er 4 kager):</label>
+            <select id="antal" name="antal" required>
+              <option value="1">1 kage</option>
+              <option value="2">2 kager</option>
+              <option value="3">3 kager</option>
+              <option value="4">4 kager</option>
+            </select>
+          </div>
+          <div class="form-felt">
+            <label
+              >Evt. besked eller kommentar ifm. bestilling:
+              <textarea name="besked" rows="5"></textarea>
+            </label>
+          </div>
+          <button type="submit">Læg i kurv</button>
         </div>
-        <div class="form-felt">
-          <label for="time">Tidspunkt:</label>
-          <input type="time" id="time" name="time" required />
-        </div>
-        <div class="form-felt">
-          <label
-            >Evt. besked eller kommentar ifm. bestilling:
-            <textarea name="besked" rows="5"></textarea>
-          </label>
-        </div>
-        <button type="submit">Videre til bestilling</button>
       </div>
     </main>
 
