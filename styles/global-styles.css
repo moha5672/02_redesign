@@ -205,19 +205,20 @@ nav {
   footer {
     text-align: center;
   }
-button {
-  background-color: var(--knap-farve);
-  color: var(--baggrund-farve);
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "links";
-  font-weight: bold;
-  text-decoration: none;
-  font-size: var(--normal-skrift);
-  height: 40px;
-  width: 160px;
-}
+  button {
+    background-color: var(--knap-farve);
+    color: var(--baggrund-farve);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "links";
+    font-weight: bold;
+    text-decoration: none;
+    font-size: var(--normal-skrift);
+    height: 40px;
+    width: 160px;
+  }
 
-button:hover {
-  background-color: var(--knap-farve-hover);
+  button:hover {
+    background-color: var(--knap-farve-hover);
+  }
 }
