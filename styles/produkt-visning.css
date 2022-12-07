@@ -1,0 +1,16 @@
+img {
+  width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (min-width: 750px) {
+}
+
+h2,
+p {
+  text-align: center;
+}
