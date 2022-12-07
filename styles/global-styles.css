@@ -100,6 +100,10 @@ h6 {
   isolation: isolate;
 }
 
+.logo {
+  max-width: 100px;
+}
+
 /* Body og wrapper styling */
 
 body {
@@ -147,6 +151,7 @@ nav {
   justify-content: space-around;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  place-items: center;
 }
 
 .nav-links {
@@ -170,7 +175,7 @@ nav {
 
     transform: scaleX(0);
     transform-origin: right;
-    transition: transform 250ms ease-in;
+    transition: transform 180ms ease-in;
   }
 
   .nav-link:hover::after {
