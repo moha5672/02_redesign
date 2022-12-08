@@ -189,6 +189,10 @@ nav {
   place-items: center;
 }
 
+.navlink:active {
+  font-weight: bold;
+}
+
 @media screen and (min-width: 811px) {
   .nav-link {
     position: relative;
