@@ -63,7 +63,7 @@
   margin-top: 0.6rem;
 }
 
-.menu__plant__subheader {
+.picture-grid__subheader {
   font-size: clamp(2rem, 1.2718rem + 3.1068vw, 5rem);
 }
 
@@ -84,7 +84,7 @@
 
 .vertical-fade {
   animation-name: vertical-fade_kf;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-fill-mode: both;
@@ -92,7 +92,7 @@
 
 @keyframes vertical-fade_kf {
   0% {
-    transform: translateY(20%);
+    transform: translateY(10%);
     opacity: 0;
   }
 
@@ -100,4 +100,10 @@
     opacity: 1;
     transform: translateY(0%);
   }
+}
+
+.picture__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
