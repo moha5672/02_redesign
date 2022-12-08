@@ -155,3 +155,7 @@
 .picture__grid > img:nth-child(5) {
   grid-column: 2 / span 2;
 }
+
+.gallery {
+  margin-top: 3rem;
+}

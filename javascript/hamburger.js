@@ -3,12 +3,10 @@ const btn = document.querySelector(".toggle-btn");
 // Lav variablen "menu", der henviser til ".nav-links"
 const menu = document.querySelector(".nav-links");
 
-// kryds billede til hamburger luk
-var hamburgerClosed = document.querySelector(".hamburger-closed");
-
 // Lav funktionen "toggleMenu()" med følgende funktionalitet
 function toggleMenu() {
   // a) toggle klassen "shown" på menu vha. classList.toggle
+
   menu.classList.toggle("shown");
   btn.classList.toggle("pressed");
 

@@ -285,45 +285,30 @@ button:hover {
 }
 
 .hamburger,
-.hamburger::before,
-.hamburger::after {
+.hamburger::before {
   width: 2em;
-  height: 3px;
+  height: 4px;
   background: black;
 
-  transition: transform 350ms ease-in-out, opacity 200ms linear;
+  transition: transform 0.8s cubic-bezier(0, 0.01, 0.24, 1);
+  /* opacity 100ms linear; */
 }
 
-.hamburger::before,
-.hamburger::after {
+.hamburger::before {
   content: "";
   position: absolute;
   left: 0;
 }
 
 .hamburger::before {
-  bottom: 6px;
+  bottom: 8px;
 }
-.hamburger::after {
-  top: 6px;
-}
-
-/* Navigation open styles */
-
-.pressed .nav {
-  transform: translateX(4);
-}
-
-/* Change this stuff below */
 
 .pressed .hamburger {
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
 }
 
 .pressed .hamburger::before {
-  opacity: 0;
-}
-
-.pressed .hamburger::after {
-  transform: rotate(90deg) translate(-6px);
+  /* opacity: 0; */
+  transform: rotate(90deg) translate(8px);
 }
