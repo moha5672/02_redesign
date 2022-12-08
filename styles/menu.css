@@ -2,7 +2,7 @@
   .col2 {
     display: grid;
     grid-template-columns: 0.4fr 1fr;
-    gap: 5rem;
+    gap: 3rem;
   }
 
   .menu__card__food {
