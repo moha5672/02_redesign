@@ -1,30 +1,38 @@
+body {
+  background-image: url(/img/forside_baggrund.png);
+  background-position: center;
+  background-size: cover;
+}
 .container {
   display: grid;
   place-items: center;
+  margin-top: 5px;
 }
 
-h1,
-p {
+.h1,
+.p {
   text-align: center;
+  margin: 6rem;
 }
 
-h1 {
-  margin-top: 4rem;
+.h1 {
+  margin-top: 6rem;
   text-transform: uppercase;
+  top: 40px;
 }
 
-p {
-  margin-top: 0.5rem;
+.p {
+  margin-top: 1rem;
   justify-content: space-between;
   font-family: "broedtekst";
+  top: 200px;
 }
 .button_container {
-  display: inline-block;
+  display: flex;
   margin: 3rem;
+  gap: 3rem;
 }
 
-img,
-h1,
-p {
-  grid-area: 1/1;
+.button_container > * {
+  font-size: 2rem;
 }
