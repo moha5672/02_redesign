@@ -279,14 +279,51 @@ button:hover {
   }
 }
 
-.toggle-btn .close {
-  display: none;
-}
-
-.pressed .close {
+.hamburger {
   display: block;
+  position: relative;
 }
 
-.pressed .menu-btn {
-  display: none;
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  width: 2em;
+  height: 3px;
+  background: black;
+
+  transition: transform 350ms ease-in-out, opacity 200ms linear;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.hamburger::before {
+  bottom: 6px;
+}
+.hamburger::after {
+  top: 6px;
+}
+
+/* Navigation open styles */
+
+.pressed .nav {
+  transform: translateX(4);
+}
+
+/* Change this stuff below */
+
+.pressed .hamburger {
+  transform: rotate(45deg);
+}
+
+.pressed .hamburger::before {
+  opacity: 0;
+}
+
+.pressed .hamburger::after {
+  transform: rotate(90deg) translate(-6px);
 }
