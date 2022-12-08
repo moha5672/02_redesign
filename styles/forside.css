@@ -18,3 +18,13 @@ p {
   justify-content: space-between;
   font-family: "broedtekst";
 }
+.button_container {
+  display: inline-block;
+  margin: 3rem;
+}
+
+img,
+h1,
+p {
+  grid-area: 1/1;
+}
