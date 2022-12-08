@@ -1,0 +1,10 @@
+h2 {
+    margin-block: 30px;
+}
+img {
+    margin-block: 20px;
+}
+
+@media (min-width: 1200px) {
+    
+}
