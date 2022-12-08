@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
-    padding-inline: 2rem;
+    /* padding-inline: 2rem; */
   }
 
   .varme-retter {
@@ -24,6 +24,10 @@
 @media (max-width: 1365px) {
   .menu__header {
     text-align: center;
+  }
+
+  .menu__subheader {
+    margin-top: 1.8rem;
   }
 }
 
@@ -42,7 +46,7 @@
 }
 
 .menu__card {
-  padding-inline: 2rem;
+  /* padding-inline: 2rem; */
 }
 
 .menu__food__brunch__subheader {
@@ -88,10 +92,6 @@
   width: 80%;
   max-width: 1500px;
   margin-inline: auto;
-}
-
-.menu__subheader {
-  margin-top: 1.8rem;
 }
 
 .vl {
