@@ -1,12 +1,13 @@
-.container {
+.wrapper {
   display: grid;
   place-items: center;
-  margin-top: 1rem;
 }
 
 .h1,
-.p {
+.tekst {
   text-align: center;
+  margin: 2rem;    
+
 }
 
 .h1 {
@@ -15,12 +16,17 @@
   top: 40px;
 }
 
-.p {
+/* .p {
   margin-top: 1rem;
   justify-content: space-between;
   font-family: "broedtekst";
   top: 200px;
-}
+} */
+.tekst {
+margin: 1rem;    
+justify-content: space-between;
+    font-family: "broedtekst";
+  }
 .button-links {
   display: flex;
   gap: clamp(3rem, 1.2353rem + 3.1373vw, 5rem);
@@ -49,18 +55,22 @@
 }
 
 @media (max-width: 400px) {
-  .kaffe_billede {
+  .kaffe_billede > * {
     display: block;
   }
   .button_container > * {
     font-size: 0.5rem;
   }
-  .container {
-    margin-bottom: 5rem;
-  }
+  
 }
 
-@media (min-width: 600px) {
+.button_container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem; 
+}
+
+/*@media (min-width: 600px) {
   body {
     background-image: url(/img/forside_baggrund.png);
     background-position: center;
@@ -74,8 +84,4 @@
     font-size: 1.5rem;
   }
 }
-.button_container {
-  display: flex;
-  gap: 2rem;
-  /* margin-bottom: 2rem; */
-}
+
