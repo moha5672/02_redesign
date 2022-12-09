@@ -224,7 +224,7 @@ nav {
   }
 }
 
-button {
+.knap {
   background-color: var(--knap-farve);
   color: var(--baggrund-farve);
   text-transform: uppercase;
@@ -233,8 +233,7 @@ button {
   font-weight: bold;
   text-decoration: none;
   font-size: var(--normal-skrift);
-  height: 40px;
-  width: 210px;
+  padding: 0.5rem 1rem;
   border: none;
   color: white;
   display: inline-block;
