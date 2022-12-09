@@ -1,0 +1,14 @@
+.product-card {
+  display: flex;
+  gap: 3rem;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__text > button:nth-child(5) {
+  margin-top: auto;
+  align-self: flex-start;
+}
