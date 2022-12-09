@@ -1,13 +1,52 @@
+@media (min-width: 400px) {
 
-
-
-@media (min-width: 1200px) {
-
-    .adresse header {
-        display:  center ;
-
+    .adresse_header {
+        text-align: center;
+        margin-top: 2rem;
       }
 
+      .adresse_tekst {
+        text-align: center;
+      }
 
+      .adresse_tekst2 {
+        text-align: center;
+      }
 
-}
+      .åbningstider_header {
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .åbningstider_tekst {
+        text-align: center;
+      }
+
+      .kontakt_header{
+        text-align: center;
+        margin-top: 2rem;
+      }
+      .kontakt_email{
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+
+      .kontakt_tekst{
+        text-align: center;
+      }
+
+      .kontakt_telefon{
+        text-align: center;
+        margin-top: 1rem;
+      }
+
+      .kontakt_tekst2{
+        text-align: center;
+      }
+
+      .kontakt_tekst3{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
