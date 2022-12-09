@@ -1,13 +1,7 @@
-body {
-  background-image: url(/img/forside_baggrund.png);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
 .container {
   display: grid;
   place-items: center;
-  margin-top: 5px;
+  margin-top: 1rem;
 }
 
 .h1,
@@ -16,7 +10,7 @@ body {
 }
 
 .h1 {
-  margin-top: 4rem;
+  margin-top: 1rem;
   text-transform: uppercase;
   top: 40px;
 }
@@ -27,17 +21,6 @@ body {
   font-family: "broedtekst";
   top: 200px;
 }
-.button_container {
-  display: flex;
-  margin: 3rem;
-  gap: 3rem;
-  margin-bottom: 2rem;
-}
-
-.button_container > * {
-  font-size: 1.5rem;
-}
-
 .button-links {
   display: flex;
   gap: clamp(3rem, 1.2353rem + 3.1373vw, 5rem);
@@ -63,4 +46,36 @@ body {
 .button-link:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+@media (max-width: 400px) {
+  .kaffe_billede {
+    display: block;
+  }
+  .button_container > * {
+    font-size: 0.5rem;
+  }
+  .container {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    background-image: url(/img/forside_baggrund.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .kaffe_billede {
+    display: none;
+  }
+  .button_container > * {
+    font-size: 1.5rem;
+  }
+}
+.button_container {
+  display: flex;
+  gap: 2rem;
+  /* margin-bottom: 2rem; */
 }
