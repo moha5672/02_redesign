@@ -238,7 +238,8 @@ button {
   border: none;
   color: white;
   display: inline-block;
-  border-radius: 12px;
+  border-radius: 0.3rem;
+  cursor: pointer;
 }
 
 button:hover {

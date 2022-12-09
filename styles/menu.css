@@ -146,6 +146,7 @@
   grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
   align-items: center;
+  margin-block: 4rem;
 }
 
 .picture__grid > img:nth-child(2) {
