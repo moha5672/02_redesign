@@ -2,10 +2,13 @@
 const btn = document.querySelector(".toggle-btn");
 // Lav variablen "menu", der henviser til ".nav-links"
 const menu = document.querySelector(".nav-links");
+
 // Lav funktionen "toggleMenu()" med følgende funktionalitet
 function toggleMenu() {
   // a) toggle klassen "shown" på menu vha. classList.toggle
+
   menu.classList.toggle("shown");
+  btn.classList.toggle("pressed");
 
   // b) lav variablen "menuShown", som siger, at menu-variablen indeholder klassen "shown" via classList.contains("")
   const menuShown = menu.classList.contains("shown");
