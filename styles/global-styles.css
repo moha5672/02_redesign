@@ -242,7 +242,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.knap:hover {
   background-color: var(--knap-farve-hover);
 }
 
