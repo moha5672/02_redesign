@@ -71,7 +71,7 @@
 
 @media (min-width: 600px) {
   body {
-    background-image: url(/img/birke_blade.png);
+    background-image: url(/img/birkeblade.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +81,8 @@
     min-height: 38rem;
   }
   .kaffe_billede {
-    display: none;
+    grid-row: 3;
+    width: 200px;
   }
   .wrapper > * {
     display: grid;
@@ -89,34 +90,32 @@
   }
   .button_container > * {
     font-size: 1rem;
-    grid-row: 2;
+    grid-row: 4;
   }
   .tekst {
-    grid-row: 3;
+    grid-row: 2;
     padding: 1rem;
+    justify-content: space-between;
+    font-family: "broedtekst";
+    margin-top: 0rem;
+    margin-bottom: 0rem;
   }
   .button_container {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
   }
-  .tekst {
-    justify-content: space-between;
-    font-family: "broedtekst";
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-  }
+
   .h1 {
     font-size: clamp(1rem, 1.2718rem + 3.1068vw, 1.5rem);
   }
   header {
     margin-bottom: 3.5rem;
   }
-  .button-link {
+  /* .button-link {
     position: relative;
     padding: 3px;
-    border: 1px solid #6e8c4e;
-  }
+  } */
 }
 
 /* .p {
