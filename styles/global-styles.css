@@ -292,7 +292,7 @@ nav {
 .hamburger::before {
   width: 2em;
   height: 4px;
-  background: black;
+  background: var(--tekst-farve);
 
   transition: transform 0.7s cubic-bezier(0, 0.01, 0.24, 1);
 }
