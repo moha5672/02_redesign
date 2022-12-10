@@ -63,6 +63,7 @@
 @media (max-width: 905px) {
   .kaffe_billede {
     display: block;
+    width: 250px;
   }
   .button_container > * {
     font-size: 1rem;
