@@ -1,6 +1,7 @@
 .product-card {
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
+  width: 34;
 }
 
 .card__text {
@@ -11,4 +12,34 @@
 .card__text > button:nth-child(5) {
   margin-top: auto;
   align-self: flex-start;
+}
+
+.toppen {
+  text-align: center;
+  margin: 50px;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  width: 80%;
+  margin-inline: auto;
+  max-width: 1400px;
+}
+ul {
+  margin-bottom: 1rem;
+}
+span {
+  font-weight: bold;
+}
+@media (max-width: 1000px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
 }
