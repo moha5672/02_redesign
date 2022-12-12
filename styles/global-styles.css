@@ -17,6 +17,10 @@
   font-family: "overskrift";
   src: url(dmserifdisplay-regular-webfont.woff2);
 }
+@font-face {
+  font-family: "sletmig";
+  src: url(dmserifdisplay-regular-webfont.woff2);
+}
 
 @font-face {
   font-family: "links";
