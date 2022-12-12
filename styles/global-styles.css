@@ -15,21 +15,21 @@
 
 @font-face {
   font-family: "overskrift";
-  src: url(dmserifdisplay-regular-webfont.woff2);
+  src: url(../fonts/dmserifdisplay-regular-webfont.woff2);
 }
 @font-face {
-  font-family: "sletmig";
-  src: url(dmserifdisplay-regular-webfont.woff2);
+  font-family: "";
+  src: url(../fonts/dmserifdisplay-regular-webfont.woff2);
 }
 
 @font-face {
   font-family: "links";
-  src: url(inter-variablefont_slntwght-webfont.woff2);
+  src: url(../fonts/inter-variablefont_slntwght-webfont.woff2);
 }
 
 @font-face {
   font-family: "broedtekst";
-  src: url(librebaskerville-regular-webfont.woff2);
+  src: url(../fonts/librebaskerville-regular-webfont.woff2);
 }
 
 /*
