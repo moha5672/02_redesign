@@ -15,17 +15,17 @@
 
 @font-face {
   font-family: "overskrift";
-  src: url(/dmserifdisplay-regular-webfont.woff2);
+  src: url(dmserifdisplay-regular-webfont.woff2);
 }
 
 @font-face {
   font-family: "links";
-  src: url(/inter-variablefont_slntwght-webfont.woff2);
+  src: url(inter-variablefont_slntwght-webfont.woff2);
 }
 
 @font-face {
   font-family: "broedtekst";
-  src: url(/librebaskerville-regular-webfont.woff2);
+  src: url(librebaskerville-regular-webfont.woff2);
 }
 
 /*
