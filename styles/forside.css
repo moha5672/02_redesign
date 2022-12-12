@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   place-items: center;
-  background: rgba(255, 252, 247, 0.8);
+  /* background: rgba(255, 252, 247, 0.8); */
 }
 
 .h1,
@@ -75,12 +75,11 @@
 
 @media (min-width: 906px) {
   body {
-    background-image: url(/img/birkeblade.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background: linear-gradient(rgba(255, 252, 247, 0.8), rgba(255, 252, 247, 0.8)), url(/img/birkeblade.png);
   }
-
   main {
     min-height: 38rem;
   }
